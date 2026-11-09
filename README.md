@@ -6,7 +6,9 @@ Created by a `beginner developer` and student at ETEC Zona Leste, Brazil.
 
 ## Live Demo
 
-[Access the calculator](YOUR_GITHUB_PAGES_LINK)
+<a href="https://tenorioux.github.io/Calculator-Web-Development-Project/" target="_blank">
+  Access the calculator
+</a>
 
 ## Features
 
@@ -27,3 +29,6 @@ Created by a `beginner developer` and student at ETEC Zona Leste, Brazil.
 
 ```bash
 git clone YOUR_REPOSITORY_LINK
+```
+
+
