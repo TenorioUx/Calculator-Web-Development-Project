@@ -30,5 +30,7 @@ Created by a `beginner developer` and student at ETEC Zona Leste, Brazil.
 ```bash
 git clone YOUR_REPOSITORY_LINK
 ```
+## Screenshots
 
+![Calculator](download.png)
 
