@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="src/style/style.css" />
+
+    <title>Calculadora / PWI</title>
+  </head>
+
+  <body>
+    <div class="principal">
+      <div class="calculator">
+        <input type="text" id="tela" disabled />
+
+        <div class="butões">
+         <button class="btn clear" id="clear">C</button>
+          <button class="btn Del" id="del">DEL</button>
+          <button class="btn operator" data-value="%">%</button>
+          <button class="btn operator" data-value="/">/</button>
+
+          <button class="btn" data-value="7">7</button>
+          <button class="btn" data-value="8">8</button>
+          <button class="btn" data-value="9">9</button>
+          <button class="btn operator" data-value="*">x</button>
+
+          <button class="btn" data-value="4">4</button>
+          <button class="btn" data-value="5">5</button>
+          <button class="btn" data-value="6">6</button>
+          <button class="btn operator" data-value="-">-</button>
+
+          <button class="btn" data-value="1">1</button>
+          <button class="btn" data-value="2">2</button>
+          <button class="btn" data-value="3">3</button>
+          <button class="btn operator" data-value="+">+</button>
+
+          <button class="btn" data-value="0">0</button>
+          <button class="btn operator" data-value=".">.</button>
+          <button class="btn equal" id="equals">=</button>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="src/script/app.js"></script>
+  </body>
+</html>
